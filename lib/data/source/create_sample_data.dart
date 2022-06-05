@@ -122,139 +122,46 @@ class CreateSampleData {
   static Future<String> createProduct() async {
     List<ProductModel> list = [];
     list.add(ProductModel(
-        id: "2",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 20000,
-        name: "Ta 2",
+        url:
+            "https://shopee.vn/-M%C3%A3-LIFE020650K-gi%E1%BA%A3m-10-%C4%91%C6%A1n-200K-Xe-l%E1%BA%AFc-cao-c%E1%BA%A5p-b%C3%A1nh-cao-su-c%C3%B3-%C4%91%C3%A8n-v%C3%A0-nh%E1%BA%A1c-BBT-GLOBAL-SW004-i.120503687.9848017045?sp_atk=2775e348-16f5-4d8e-91b3-391661f61af6&xptdk=2775e348-16f5-4d8e-91b3-391661f61af6",
+        primaryImage:
+            "https://cf.shopee.vn/file/69062c2ac07868180ee14bdc720480f3",
+        basePrice: 600000,
+        name: "Xe lắc cao cấp bánh cao su có đèn và nhạc BBT GLOBAL SW004",
         salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 3,
-        rateCount: 2,
-        totalBought: 3,
+        tagName: "children's car",
+        ratePoint: 0,
+        rateCount: 0,
+        totalBought: 10,
         shopLocation: "Ha Noi",
-        type: "Giay"));
+        type: "Xe lac"));
     list.add(ProductModel(
-        id: "3",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 20000,
-        name: "Ta 3",
-        salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 5,
-        rateCount: 3,
-        totalBought: 3,
+        url:
+            "https://shopee.vn/-Nh%E1%BB%B1a-Ch%E1%BB%A3-L%E1%BB%9Bn-Xe-%C4%90%E1%BA%A1p-Tr%E1%BA%BB-Em-12-inch-K104-Cho-B%C3%A9-T%E1%BB%AB-2-%C4%91%E1%BA%BFn-3-Tu%E1%BB%95i-i.69119994.4531500192?sp_atk=d4507b2e-9d1c-49da-83ee-e47d86fc03bd&xptdk=d4507b2e-9d1c-49da-83ee-e47d86fc03bd",
+        primaryImage:
+            "https://cf.shopee.vn/file/c462af6d4f2a1f54f362f76354b39bad",
+        basePrice: 830000,
+        name: "Xe Đạp Trẻ Em 12 inch K104 Cho Bé Từ 2 đến 3 Tuổi",
+        salePercent: 40,
+        tagName: "children's car",
+        ratePoint: 0,
+        rateCount: 0,
+        totalBought: 5,
         shopLocation: "TPHCM",
-        type: "Vai"));
+        type: "xe dap"));
     list.add(ProductModel(
-        id: "4",
         url: "links",
-        primaryImage: "image",
-        basePrice: 20000,
-        name: "Ta 4",
-        salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 4,
-        rateCount: 6,
+        primaryImage:
+            "https://cf.shopee.vn/file/58cde3a70fb78c49ae3d4551aea99694",
+        basePrice: 600000,
+        name: "Xe chòi chân trẻ em 4 bánh cao cấp Luddy 1003",
+        salePercent: 10,
+        tagName: "children's car",
+        ratePoint: 0,
+        rateCount: 0,
         totalBought: 2,
         shopLocation: "Ha Noi",
-        type: "Giay"));
-    list.add(ProductModel(
-        id: "5",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 20000,
-        name: "Ta 5",
-        salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 5,
-        rateCount: 2,
-        totalBought: 3,
-        shopLocation: "TPHCM",
-        type: "Vai"));
-    list.add(
-      ProductModel(
-          id: "6",
-          url: "links",
-          primaryImage: "image",
-          basePrice: 40000,
-          name: "Ta 6",
-          salePercent: 20,
-          tagName: "diapers",
-          ratePoint: 3,
-          rateCount: 2,
-          totalBought: 2,
-          shopLocation: "Ha Noi",
-          type: "Giay"),
-    );
-    list.add(ProductModel(
-        id: "7",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 20000,
-        name: "Ta 7",
-        salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 2,
-        rateCount: 4,
-        totalBought: 5,
-        shopLocation: "TPHCM",
-        type: "Giay"));
-    list.add(ProductModel(
-        id: "8",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 40000,
-        name: "Ta 8",
-        salePercent: 30,
-        tagName: "diapers",
-        ratePoint: 5,
-        rateCount: 2,
-        totalBought: 5,
-        shopLocation: "Ha noi",
-        type: "Vai"));
-    list.add(ProductModel(
-        id: "9",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 50000,
-        name: "Ta 9",
-        salePercent: 45,
-        tagName: "diapers",
-        ratePoint: 4,
-        rateCount: 6,
-        totalBought: 2,
-        shopLocation: "Ha Noi",
-        type: "Giay"));
-    list.add(ProductModel(
-        id: "10",
-        url: "links",
-        primaryImage: "image",
-        basePrice: 40000,
-        name: "Ta 10",
-        salePercent: 20,
-        tagName: "diapers",
-        ratePoint: 3,
-        rateCount: 5,
-        totalBought: 5,
-        shopLocation: "TPHCM",
-        type: "Vai"));
-    list.add(
-      ProductModel(
-          id: "11",
-          url: "links",
-          primaryImage: "image",
-          basePrice: 60000,
-          name: "Ta 1",
-          salePercent: 10,
-          tagName: "diapers",
-          ratePoint: 5,
-          rateCount: 6,
-          totalBought: 2,
-          shopLocation: "Ha Noi",
-          type: "Vai"),
-    );
+        type: "Xe chòi"));
 
     for (var i = 0; i < list.length; i++) {
       await ProductRepository.createProduct(list[i]);
@@ -266,100 +173,79 @@ class CreateSampleData {
   static Future<String> createRating() async {
     var listModel = [
       RatingModel(
-          id: "2",
           content: "good",
-          idProduct: "1",
-          ratePoint: 4,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "3",
-          content: "hay",
-          idProduct: "1",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
           ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "4",
-          content: "OK",
-          idProduct: "1",
-          ratePoint: 3,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "5",
-          content: "hay",
-          idProduct: "1",
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
           ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "6",
           content: "good",
-          idProduct: "1",
-          ratePoint: 2,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "7",
-          content: "hay",
-          idProduct: "1",
-          ratePoint: 2,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "8",
-          content: "OK",
-          idProduct: "1",
-          ratePoint: 4,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "9",
-          content: "bad",
-          idProduct: "1",
-          ratePoint: 1,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "2",
-          content: "good",
-          idProduct: "1",
-          ratePoint: 4,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "10",
-          content: "hay",
-          idProduct: "2",
-          ratePoint: 1,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "11",
-          content: "OK",
-          idProduct: "2",
-          ratePoint: 3,
-          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
-      RatingModel(
-          id: "12",
-          content: "hay",
-          idProduct: "2",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
           ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "13",
           content: "good",
-          idProduct: "2",
-          ratePoint: 4,
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "14",
-          content: "hay",
-          idProduct: "3",
-          ratePoint: 4,
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "15",
-          content: "OK",
-          idProduct: "2",
-          ratePoint: 2,
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
       RatingModel(
-          id: "16",
-          content: "bad",
-          idProduct: "2",
-          ratePoint: 1,
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
+          userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
+      RatingModel(
+          content: "good",
+          idProduct: "09d67479-a724-4f61-8446-9bd40975af19",
+          ratePoint: 5,
           userId: "4GxRYoBYNDXo0nBt6VfUTJc5VXG3"),
     ];
 
